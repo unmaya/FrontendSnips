@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+@import "compass/css3";
+]]></content>
+<tabTrigger>@css3</tabTrigger>
+</snippet>

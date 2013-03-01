@@ -1,15 +1,15 @@
 FrontendSnips
 =============
 
-My collection of simple Sublime Text snippets for front-end development.
+This is my collection of simple Sublime Text snippets for front-end development. Mostly for me to sync across machines using sym-links from  GitHub Repos.
 
-I'm starting with some basic HTML, Javascript and CSS which I use often to speed up development.
-_I'm in the early stages of building this collection and its a work in progress!_
+It includes basic HTML, Javascript and CSS which I use often to speed up development time.
+_I'm just getting started, its a work in progress!_
 
 ---
 
 # Basic usage
-Just type the keywords and hit the tab key immediately after, I'm using the native tabTriggers so if you are using other addons that modify the tab key these may not work as expected. Note that most of my snippets use fileds with placeholders, press the Tab key (or Shift + Tab to go backwards).
+Drop these into your "/packages/user/" folder to get started, they can live inside their own folder (ie. "snippets"). Just type the keywords and hit the tab key immediately after, I'm using the native tabTriggers so if you are using other addons that modify the tab key then these may not work as expected. Note that most of the snippets have preset fileds with placeholders, press the Tab key to cycle over them (or Shift + Tab to go backwards).
 
 __analytics__
 
@@ -54,3 +54,17 @@ __log__
 console.log("${1:message}")
 ```
 
+__retinaquery__
+
+```css
+@media (min--moz-device-pixel-ratio: 1.5),
+       (-o-min-device-pixel-ratio: 3/2),
+       (-webkit-min-device-pixel-ratio: 1.5),
+       (min-device-pixel-ratio: 1.5),
+       (min-resolution: 144dpi),
+       (min-resolution: 1.5dppx) {
+
+	${1:/* Retina rules here */}
+
+}
+```
